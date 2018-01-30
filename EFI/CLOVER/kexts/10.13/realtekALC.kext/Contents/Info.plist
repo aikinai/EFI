@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Realtek ALC 2.1, Copyright © 2015 toleda. All rights reserved.</string>
+	<string>Realtek ALC 2.8, Copyright © 2017 toleda. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.driver.RealtekALC</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2-toledaALC-110</string>
+	<string>1.8-toledaALC-120</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -281,6 +281,88 @@
 					<integer>1</integer>
 					<key>Comment</key>
 					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904103</integer>
+					<key>ConfigData</key>
+					<data>IUccECFHHUAhRx4RIUcfkCFHDAIhVxwgIVcdECFXHgEhVx8BIWccMCFnHWAhZx4BIWcfASF3HPAhdx0AIXceACF3H0AhhxxAIYcdkCGHHqAhhx+QIZccYCGXHZAhlx6BIZcfAiGnHFAhpx0wIacegSGnHwEhtxxwIbcdQCG3HiEhtx8CIbcMAiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>1</integer>
+					<key>Comment</key>
+					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283904103</integer>
+					<key>ConfigData</key>
+					<data>IUccECFHHUAhRx4RIUcfkCFHDAIhVxzwIVcdACFXHgAhVx9AIWcc8CFnHQAhZx4AIWcfQCF3HPAhdx0AIXceACF3H0AhhxxAIYcdYCGHHgEhhx8BIZccYCGXHZAhlx6gIZcfkCGnHFAhpx0QIaceASGnHwEhtxxwIbcdQCG3HiEhtx8CIbcMAiHnHJAh5x1hIeceSyHnHwEh9xzwIfcdACH3HgAh9x9AIRcc8CEXHQAhFx4AIRcfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>2</integer>
+					<key>Comment</key>
+					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcdEAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQF3HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqABhx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0wAacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcMAgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3HgAB9x9AARcc8AEXHQABFx4AARcfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>1</integer>
+					<key>Comment</key>
+					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283906408</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcdAAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3HPABdx0AAXceAAF3H0ABhxxAAYcdYAGHHgEBhx8BAZccYAGXHZABlx6gAZcfkAGnHFABpx0QAaceAQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcMAgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3HgAB9x9AARcc8AEXHQABFx4AARcfQA==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>2</integer>
+					<key>Comment</key>
+					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcdEAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQGHHEABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAaccUAGnHTABpx6BAacfAQG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHWEB5x5LAecfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>1</integer>
+					<key>Comment</key>
+					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcdAAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAGHHEABhx1gAYceAQGHHwEBlxxgAZcdkAGXHqABlx+QAaccUAGnHRABpx4BAacfAQG3HHABtx1AAbceIQG3HwIBtwwCAecckAHnHWEB5x5LAecfAQ==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>2</integer>
+					<key>Comment</key>
+					<string>toledaALC</string>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>283906592</integer>
+					<key>ConfigData</key>
+					<data>AUccEAFHHUABRx4RAUcfAQGHHFABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEBlx8CAacccAGnHTABpx6BAacfAQG3HIABtx1AAbceIQG3HwEB5xyQAecd4AHnHkUB5x8BAUcMAg==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>3</integer>
 				</dict>
 			</array>
 			<key>IOClass</key>
