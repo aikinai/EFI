@@ -2,15 +2,14 @@
 
 ## Current State
 
-* OpenCore 0.5.8
+* Monterey Beta 2
+* OpenCore 0.7.1
 * i9-9900K's UHD 630 iGPU fully working and with hardware acceleration  
-  (maybe the most unique factor about this build since most machines have a dedicatd GPU and it seems there's been a lot of trouble getting this iGPU working)
-* Audio fully working
+* Audio stopped working with Monterey; will fix next
 * Bluetooth fully working
 * Power management fully working (though not yet [fine-tuned with CPUFriend](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/pm.html#using-cpu-friend))
 * All USB ports working and powered (unused port modes disabled to stay under the MacOS limit)
   * Most ports have USB 2.0 disabled
-* HDMI fully working including audio
 
 ## Motherboard settings
 
@@ -23,6 +22,7 @@
 * Replaced EC-USBX with EC from SSDTTime
 * Added HPET and patches
 * Replaced PLUG
+* Had to set `SecureBootMode` to `Disabled` for Monterey installation
 
 ## References
 
