@@ -1,9 +1,9 @@
-# OpenCore EFI for Gigabyte Z390 I AORUS PRO WIFI Mini ITX with i9-9900K and iGPU
+#OpenCore EFI for Gigabyte Z390 I AORUS PRO WIFI Mini ITX with i9-9900K and iGPU
 
 ## Current State
 
-* Monterey Beta 2
-* OpenCore 0.7.1
+* MacOS Monterey 12.4
+* OpenCore 0.8.1
 * i9-9900K's UHD 630 iGPU fully working and with hardware acceleration  
 * Audio stopped working with Monterey; will fix next
 * Bluetooth fully working
